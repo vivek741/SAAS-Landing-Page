@@ -1,0 +1,239 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body > header > nav {
+    float: left;
+    
+    position: relative;
+    right: -791px;
+    top: 7px;
+  
+  }
+  body > header > div:nth-child(2) {
+    float: left;
+  }
+  
+  body > header > nav > a {
+    margin-left: 30px;
+  }
+  body > header > div:nth-child(2) {
+    float: left;
+    position: relative;
+    left: -570px;
+  }
+  header{
+    background-color: #7030cc;
+    padding: 25px;
+    height: 570px;
+    color:white;
+    
+  }
+  body > header > div.header-text > img {
+    position: relative;
+    top: 134px;
+    right: 607px;
+  }
+  body > header > div.header-text > h2 {
+    position: relative;
+    /* left: 53px; */
+    top: 100px;
+    font-size: 3.5em;
+}
+.header-text {
+    /* float: left; */
+    padding-left: 90px;
+}
+body > header > div:nth-child(4) {
+    float: right;
+    position: relative;
+    right: -175px;
+    top: -290px;
+    width: 50%;
+}
+img.header-img {
+    /* width: 600px;
+    height: 400px; */
+    /* transform: scale(1.2); */
+}
+body > header > div.header-text > p {
+    position: relative;
+    top: 100px;
+    /* left: 56px; */
+    color: white;
+}
+  img.logo {
+    width: 100px;
+}
+body > header > nav > a.nav-item-active {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #1bbcef;
+}
+body > header > nav > a:nth-child(1) {
+    color: #1bbcef;
+    text-decoration: underline;
+    text-decoration-offset: 17px;
+    text-underline-offset: 5px;
+    text-decoration-color: #c767dc;
+}
+.os{
+    padding: 50px;
+}
+.os-text{
+    float: right;
+    width: 35%;
+}
+.end {
+    position: absolute;
+    top: 1200px;
+    text-align: center;
+    width: 100%;
+}
+.cards {
+    float: left;
+    margin-left: 134px;
+    border: 1px solid;
+    width: 202px;
+    height: 202px;
+}
+
+
+.cards {
+    float: left;
+    margin-left: 134px;
+    border: none;
+    /* box-shadow: 6px 4px 4px 0px grey; */
+    width: 202px;
+    height: 168px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 0.2s;
+    padding-top: 40px;
+}
+.cards:hover {
+    box-shadow: 6px 4px 4px 0px grey;
+}
+@media only screen and (max-width: 600px) {
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+
+  body > header > nav {
+    float: left;
+    
+    position: relative;
+    right: -791px;
+    top: 7px;
+  
+  }
+  body > header > div:nth-child(2) {
+    float: left;
+  }
+  
+  body > header > nav > a {
+    margin-left: 30px;
+  }
+  body > header > div:nth-child(2) {
+    /* float: left; */
+    /* position: relative; */
+    /* left: -570px; */
+  }
+  header{
+    background-color: #7030cc;
+    padding: 25px;
+    height: 570px;
+    color:
+    white;
+  }
+  body > header > div.header-text > img {
+    position: relative;
+    top: 134px;
+    right: 607px;
+  }
+  body > header > div.header-text > h2 {
+    position: relative;
+    /* left: 53px; */
+    /* top: 100px; */
+    font-size: 1.5em;
+}
+.header-text {
+    /* float: left; */
+    /* padding-left: 90px; */
+}
+body > header > div:nth-child(4) {
+    float: right;
+    position: relative;
+    right: -175px;
+    top: -290px;
+    width: 50%;
+}
+img.header-img {
+    /* width: 600px;
+    height: 400px; */
+    /* transform: scale(1.2); */
+    width: 300px;
+}
+body > header > div.header-text > p {
+    position: relative;
+    /* top: 100px; */
+    /* left: 56px; */
+    color: white;
+}
+  img.logo {
+    width: 100px;
+}
+body > header > nav > a.nav-item-active {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #1bbcef;
+}
+body > header > nav > a:nth-child(1) {
+    color: #1bbcef;
+    text-decoration: underline;
+    text-decoration-offset: 17px;
+    text-underline-offset: 5px;
+    text-decoration-color: #c767dc;
+}
+
+.os{
+    padding: 50px;
+}
+.os-text{
+    float: right;
+    /* width: 35%; */
+}
+.end {
+    position: absolute;
+    top: 1632px;
+    text-align: center;
+    width: 100%;
+}
+.cards {
+    float: left;
+    /* margin-left: 134px; */
+    border: 1px solid;
+    width: 202px;
+    height: 202px;
+}
+
+
+.cards {
+    float: left;
+    margin-left: 68px;
+    border: none;
+    /* box-shadow: 6px 4px 4px 0px grey; */
+    width: 202px;
+    height: 168px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 0.2s;
+    padding-top: 40px;
+}
+.cards:hover {
+    box-shadow: 6px 4px 4px 0px grey;
+}
+
+}

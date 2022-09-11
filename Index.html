@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script type="text/javascript">
+
+var doRelocation = function() {
+    
+    var currentWidth = window.innerWidth,
+        breakpoint = 800,
+        newLocation = 'mobile.html';
+
+    if (currentWidth < breakpoint) {
+        window.location.replace(newLocation);
+    }
+
+}
+    doRelocation();
+    
+    window.addEventListener('resize', doRelocation);
+    
+    </script>
+<body>
+    <header>
+        <!-- Navigation Bar Starts -->
+        <nav>
+            <!-- Navigation items Starts -->
+            <a class="nav-item">Home</a>
+            <a class="nav-item">Services</a>
+            <a class="nav-item">Pricing</a>
+            <a class="nav-item">Testimonials</a>
+            <a class="nav-item">Blog</a>
+            <a class="nav-item-active">Free Trial</a>
+            
+            
+        </nav>
+  
+        <!-- LOGO -->
+        <div >
+            <img class="logo" src="./Images/white-logo.png" >
+        </div>
+  
+        <!-- Text -->
+        <div class="header-text">
+            
+            <h2>
+                Empowering Your <br>business with the <br> best solution.
+            </h2>
+            <p>
+                We connect your brand & business with your target <br>market in the most desirable, refined, and elvated way <br> possible throught the digital medium<br>
+                <br>
+                
+              </p>
+  
+              <!-- Image -->
+      
+        </div>
+        <div class="img-holder">
+            <img class="header-img" src="./Images/30495 [Converted]-01.png" >
+        </div>
+        
+    </header>
+    <div class="os">
+        <img class="header-img" style="float:left;" src="./Images/Saas illustration-01.png" >
+         <div class="os-text">
+            <h1 class="os-h1">Its helpful for Operating <br>System</h1>
+            <h2><span style="color:#f28a3f;">&#8608;</span> Ultra fast & Secure</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, dolor illum deleniti doloremque accusamus voluptatem,</p>
+            <h2><span style="color:#7bcb3c;">&#8608;</span> Allow customization</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, dolor illum deleniti doloremque accusamus voluptatem,</p>
+            <h2><span style="color:#3f9cf2;">&#8608;</span> Smart Contract</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, dolor illum deleniti doloremque accusamus voluptatem,</p>
+         </div>
+    
+    </div>
+    <div class="end">
+        <h1>We Provide Best Feature <br>for Customer</h1>
+        <div class="cards">
+            <img src="./Images/web-developing.png">
+            <h3>Clean Code</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="cards">
+            <img src="./Images/data-analytics.png">
+            <h3>Data Analytics</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="cards">
+            <img src="./Images/secured-profile.png">
+            <h3>Fully Secured</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="cards">
+            <img src="./Images/support.png">
+            <h3>24/7 Support</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+    
+
+</script>
+</html>

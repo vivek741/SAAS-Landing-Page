@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<style>
+header {
+    background-color: #7030cc;
+    padding: 25px;
+    height: 570px;
+    color: white;
+}
+div:nth-child(2) {
+    /* float: left; */
+    /* position: relative; */
+    /* left: -570px; */
+}
+.header-text {
+    /* float: left; */
+    /* padding-left: 90px; */
+}
+div.header-text > h2 {
+    position: relative;
+    /* left: 53px; */
+    /* top: 100px; */
+    font-size: 1.5em;
+}
+div.header-text > p {
+    position: relative;
+    /* top: 100px; */
+    /* left: 56px; */
+    color: white;
+}
+img.header-img {
+    /* transform: scale(1.2); */
+    width: 320px;
+
+}
+os-text {
+    float: right;
+    /* width: 35%; */
+}
+h1 {
+    text-align: left;
+    padding-left: 45px;
+}
+.end {
+    position: absolute;
+    top: 1500px;
+    text-align: center;
+    width: 100%;
+}
+.cards {
+    float: left;
+    margin-left: 68px;
+    border: none;
+    /* box-shadow: 6px 4px 4px 0px grey; */
+    width: 202px;
+    height: 168px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 0.2s;
+    padding-top: 40px;
+}
+</style>
+<body>
+    <header>
+        <!-- Navigation Bar Starts -->
+       
+  
+        <!-- LOGO -->
+        <div >
+            <img class="logo" src="./Images/white-logo.png" >
+        </div>
+  
+        <!-- Text -->
+        <div class="header-text">
+            
+            <h2>
+                Empowering Your <br>business with the <br> best solution.
+            </h2>
+            <p>
+                We connect your brand & business with your target <br>market in the most desirable, refined, and elvated way <br> possible throught the digital medium<br>
+                <br>
+                
+              </p>
+  
+              <!-- Image -->
+      
+        </div>
+        <div class="img-holder">
+            <img class="header-img" src="./Images/30495 [Converted]-01.png" >
+        </div>
+        
+    </header>
+    <div class="os">
+        <img class="header-img" style="float:left;" src="./Images/Saas illustration-01.png" >
+         <div class="os-text">
+            <h1 class="os-h1">Its helpful for Operating <br>System</h1>
+            <h2><span style="color:#f28a3f;">&#8608;</span> Ultra fast & Secure</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, dolor illum deleniti doloremque accusamus voluptatem,</p>
+            <h2><span style="color:#7bcb3c;">&#8608;</span> Allow customization</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, dolor illum deleniti doloremque accusamus voluptatem,</p>
+            <h2><span style="color:#3f9cf2;">&#8608;</span> Smart Contract</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, dolor illum deleniti doloremque accusamus voluptatem,</p>
+         </div>
+    
+    </div>
+    <div class="end">
+        <h1>We Provide Best Feature <br>for Customer</h1>
+        <div class="cards">
+            <img src="./Images/web-developing.png">
+            <h3>Clean Code</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="cards">
+            <img src="./Images/data-analytics.png">
+            <h3>Data Analytics</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="cards">
+            <img src="./Images/secured-profile.png">
+            <h3>Fully Secured</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="cards">
+            <img src="./Images/support.png">
+            <h3>24/7 Support</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+
+    var doRelocation = function() {
+    
+        var currentWidth = window.innerWidth,
+            breakpoint = 800,
+            newLocation = 'index.html';
+    
+        if (currentWidth > breakpoint) {
+            window.location.replace(newLocation);
+        }
+    
+    }
+    
+    doRelocation();
+    
+    window.addEventListener('resize', doRelocation);
+    
+    </script>
+</html>
